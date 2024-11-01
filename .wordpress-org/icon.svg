@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="334px" height="334px" viewBox="0 0 334 334" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(59.000000, 79.000000)">
+            <path d="M193.175644,6.021056 L5.474304,6.021056 L5.474304,170.250176 L193.175641,170.250183 C204.125755,144.524858 209.84832,116.737681 209.84832,88.135616 C209.84832,59.5335539 204.125756,31.746379 193.175628,6.0210549 Z" id="Combined-Shape-Copy" stroke="#C45F5F" stroke-width="10.948608" fill="#FF8C8C"></path>
+            <path d="M58.560975,104 L58.560975,84.471062 L78.089913,84.471062 L78.089913,104 L58.560975,104 Z M98.105337,104 L98.105337,84.471062 L117.634275,84.471062 L117.634275,104 L98.105337,104 Z M137.649699,104 L137.649699,84.471062 L157.178637,84.471062 L157.178637,104 L137.649699,104 Z" id="..." fill="#C45F5F" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

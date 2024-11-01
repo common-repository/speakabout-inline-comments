@@ -1,0 +1,86 @@
+.switch-field {
+    display: flex;
+    overflow: hidden;
+}
+
+.switch-field input {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+    background-color: #e4e4e4;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+.switch-field label {
+    opacity: 0.5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+.switch-field input:checked+label {
+    box-shadow: none;
+    opacity: 1;
+}
+
+.switch-field label:first-of-type {
+    border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+    border-radius: 0 4px 4px 0;
+}
+
+.switch-field label[for="radio-red"] {
+    background-color: #f38c8c;
+}
+.switch-field label[for="radio-yellow"] {
+    background-color: #f3ec8c;
+}
+.switch-field label[for="radio-green"] {
+    background-color: #98f38c;
+}
+.switch-field label[for="radio-blue"] {
+    background-color: #8cc1f3;
+}
+.switch-field label[for="radio-custom"] {
+    display: flex;
+}
+#colorInput {
+    position:relative;
+    display: none;
+    clip:auto;
+    width: 65px;
+    height:auto;
+    margin-left:10px;
+    padding:2px;
+    background-color:rgba(255, 255, 255, 0.3)
+}
+#colorInput::placeholder{
+    color:#bbb;
+}
+.switch-field input:checked+label[for="radio-custom"] input#colorInput {
+    display: block;
+}
+
+
+#permissions-field label{
+    margin-right: 15px;
+}
